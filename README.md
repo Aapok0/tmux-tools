@@ -6,7 +6,7 @@ The script takes a keyword, that you would normally use to move to a directory w
 
 ## tmuxf
 
-Same as tmuxz, but you don't give any 
+Same as tmuxz, but you don't give any keyword. The script opens a fuzzy finder (fzf) window for all directories in zoxide database. Write in the field to narrow down and choose the directory you want. The rest of it works the same way as tmuxz.
 
 ## How to use
 
