@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Exit with message if no variable is given
 if [ -z $1 ]; then
