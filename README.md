@@ -13,17 +13,18 @@ Same as tmuxz, but you don't give any keyword. The script opens a fuzzy finder (
 1. Install the required command line tools: [tmux](https://github.com/tmux/tmux/wiki/Installing), [zoxide](https://github.com/ajeetdsouza/zoxide#installation) and [fzf](https://github.com/junegunn/fzf#installation)
 2. Clone this repository
 3. Add the script to path in one of the following ways: 
-    - Move the scripts to a bin directory in path variable (for example /usr/local/bin)
-    - Make symbolic links of the scripts to a bin directory in path variable (for example /usr/local/bin):
 
 ```bash
-ln -sT /absolute/path/to/script-name /usr/local/bin/script-name
-```
+# Move the scripts to a bin directory in path variable (for example /usr/local/bin)
+sudo mv /path/to/tmuxz /usr/local/bin/
+sudo mv /path/to/tmuxf /usr/local/bin/
 
-    - Add the scripts' path to path variable with:
+# Make symbolic links of the scripts to a bin directory in path variable (for example /usr/local/bin)
+sudo ln -sT /absolute/path/to/tmuxz /usr/local/bin/tmuxz
+sudp ln -sT /absolute/path/to/tmuxf /usr/local/bin/tmuxf
 
-```bash
-export PATH="/path/to/script:$PATH"
+# Add the scripts' path to path variable with
+export PATH="/path/to/script-directory:$PATH"
 ```
 
 4. Then call either script with:
